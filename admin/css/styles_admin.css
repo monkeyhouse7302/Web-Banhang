@@ -1,0 +1,54 @@
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+.product{
+    width: 100%;
+}
+
+.search i{
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  color: #b8b9bc;
+}
+
+#search_btn_header{
+  position: absolute;
+}
+
+
+.search {
+  position: relative;
+}
+
+.search .form-control {
+  text-indent: 15px;
+  border: none;
+  height: 45px;
+  border-radius: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.search .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #eee;
+  box-shadow: none;
+  border-bottom: 1px solid blue;
+}

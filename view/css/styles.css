@@ -1,0 +1,160 @@
+body{
+	font-size: 16px;
+	font-weight: 500;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+@media (min-width: 1024px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }    
+}
+
+@media (min-width: 1024px){
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+footer a{
+    color:white;
+}
+
+.top-header{
+    background-color: #F5F5F5;
+}
+
+.banner{
+    background-color: #F5F5F5;
+    font-size: smaller;
+}
+
+.nav .nav-item {
+    text-align: center;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.search i{
+    position: absolute;
+    top: 13px;
+    left: 4px;
+    color: #b8b9bc;
+}
+
+#search_btn_header{
+    position: absolute;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search .form-control {
+    text-indent: 15px;
+    border: none;
+    height: 45px;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.search .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eee;
+    box-shadow: none;
+    border-bottom: 1px solid blue;
+}
+
+
+#main_footer {
+    background-color: #251e23;
+    color: #f5f5f5;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.bg-banner{
+    background-image: url("../img/home/bg-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media (min-width: 768px){
+    .p-md-5 {
+        padding: 7rem!important;
+    }
+}
+
+.brand{
+    width: 40%;
+}
+
+.product{
+    width: 100%;
+}
+
+.price button{
+    margin: 3px;
+    text-align: center;
+}
+
+.about-logo i{
+    color: red;
+}
+
+/* Contact */
+#title_contact{
+    font-weight: 600;
+}
+
+#submit_contact_info_contact{
+    background-color: #1097cf;
+}
+
+#submit_contact_info_contact:hover{
+    background-color: #5d899c;
+}
+
+.div_contain_icon_contact i{
+    width: 40px;
+    background-color: #1097cf;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 12px;
+    color: #fff;
+    margin-right: 20px;
+    
+}
+/* detail_product */
+#contain_detail_product{
+    background-color: #f3f3f3;
+    padding: 25px 15px;
+}
+
+#btn_add_into{
+    margin-left: 15px;
+    margin-top: 25px;
+    width: 200px;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+#amount_product_detail_product{
+    width: 80px;
+    border: 1px solid #1097cf;
+    border-radius: 4px;
+}
